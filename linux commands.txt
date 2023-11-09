@@ -1,0 +1,94 @@
+whoami - login user
+ls
+ls -la
+touch file.txt - create file
+cat file.txt   - display file data
+
+vi file.txt    - edit file
+esc i - insert mode
+esc - exit mode
+:wq- write file
+
+cd /var/log
+sudo 
+pwd - present working directory
+mv first.txt second.txt  - mv command moves a file or renames it.
+cp second.txt third.txt
+rm file1 -   remove files in a directory or the directory itself
+mkdir myproject - The mkdir command makes a directory
+echo “This is an article on basic linux commands”
+history - show previously used commands or obtain information about the commands executed by a user.
+clear - This command clears the terminal screen.
+find / -name test.txt
+top - see all services,cpu,memory
+
+----------------
+chmod 744 script.sh
+
+The first number stands for the user who is associated with the file
+The second number is for the group associated with the file
+The third number is associated with everyone else who is not a part of the user or group
+
+The digits you can use and what they represent are listed here:
+
+0: (000) No permission.
+1: (001) Execute permission.
+2: (010) Write permission.
+3: (011) Write and execute permissions.
+4: (100) Read permission.
+5: (101) Read and execute permissions.
+6: (110) Read and write permissions.
+7: (111) Read, write, and execute permissions.
+
+rw- r-- r-- 
+
+---------
+chown
+
+This command is used to change the ownership of a file/folder or even multiple files/folders for a specified user/group.
+
+chown owner_name file_name
+
+$ chown user1 script.sh
+Assume that if you are a user named user1and you want to change ownership to rootuse “sudo”.
+
+$ sudo chown root script.sh
+---------------------------------
+apt –get
+apt -get is a powerful and free front-end package manager for Debian/Ubuntu systems. It is used to install new software packages, remove available software packages, upgrade existing software packages as well as upgrade the entire operating system. apt – stands for advanced packaging tool.
+
+$ sudo apt-get update
+---------------------------
+reboot - This command halts, powers off, or reboots a system.
+
+---------------------------
+locate file1.txt - The locate command is used to find a file and runs in the background, unlike the find command.
+
+diff file1.txt file2.txt
+
+useradd John  - useraddcommand creates a new user
+passwd
+
+utime - service time ,users,load
+uname - flawor of linux
+uname -r : image name
+free - space availble in machine
+df -h : volume space
+netstat -tunlp - active internet connction
+
+
+
+
+exit - The exit command exits the current shell
+
+--------------------------------------
+
+OS Types:
+
+Windows
+Linux
+Ubuntu
+Debian
+centos
+macos
+
