@@ -85,10 +85,11 @@ exit - The exit command exits the current shell
 
 OS Types:
 
-Windows
+Windows home 
 Linux
 Ubuntu
 Debian
 centos
 macos
+windows server
 
